@@ -23,7 +23,7 @@ async function bootstrap() {
 
   await app.listen(envs.port);
 
-  console.log('ola muo') 
+  console.log('segundo cambio muo') 
 
   logger.log(`Gateway runing on port ${envs.port}`)
 }
